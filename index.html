@@ -90,10 +90,20 @@
                 <button class="filter-btn" data-filter="digital">数字媒体</button>
                 <button class="filter-btn" data-filter="installation">装置艺术</button>
             </div>
+            <div class="works-actions">
+                <button id="clearAllImages" class="clear-btn" title="清除所有已上传的图片">
+                    <span>🗑️</span> 清除所有图片
+                </button>
+            </div>
             <div class="works-grid">
-                <div class="work-card" data-category="interaction">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="interaction" data-index="0">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="智能交互界面设计" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>智能交互界面设计</h3>
@@ -101,9 +111,14 @@
                         <span class="work-tag">交互设计</span>
                     </div>
                 </div>
-                <div class="work-card" data-category="digital">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="digital" data-index="1">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="数字艺术展览" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>数字艺术展览</h3>
@@ -111,9 +126,14 @@
                         <span class="work-tag">数字媒体</span>
                     </div>
                 </div>
-                <div class="work-card" data-category="installation">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="installation" data-index="2">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="光影互动装置" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>光影互动装置</h3>
@@ -121,9 +141,14 @@
                         <span class="work-tag">装置艺术</span>
                     </div>
                 </div>
-                <div class="work-card" data-category="interaction">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="interaction" data-index="3">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="手势控制系统" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>手势控制系统</h3>
@@ -131,9 +156,14 @@
                         <span class="work-tag">交互设计</span>
                     </div>
                 </div>
-                <div class="work-card" data-category="digital">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="digital" data-index="4">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="生成艺术作品" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>生成艺术作品</h3>
@@ -141,9 +171,14 @@
                         <span class="work-tag">数字媒体</span>
                     </div>
                 </div>
-                <div class="work-card" data-category="installation">
-                    <div class="work-image">
-                        <div class="placeholder-img">项目预览图</div>
+                <div class="work-card" data-category="installation" data-index="5">
+                    <div class="work-image drop-zone">
+                        <img src="" alt="声音可视化装置" style="display: none;">
+                        <div class="upload-hint">
+                            <span class="upload-icon">+</span>
+                            <p>拖拽图片到此处<br>或点击上传</p>
+                        </div>
+                        <input type="file" class="file-input" accept="image/*" style="display: none;">
                     </div>
                     <div class="work-info">
                         <h3>声音可视化装置</h3>
